@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Recipe Tracker</title>
+
+
+<body>
+
+    
+    <head>
+        <style>
+            #banner {
+                background-color: rgb(100, 191, 233);
+                color: white;
+                padding: 10px;
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+
+
+    <body>
+        <div id="banner">
+            <h1 style="font-size:50px;font-family:Verdana, Geneva, Tahoma, sans-serif;">Personal Recipe Tracker</h1>
+            <h2 style="font-size:30px;font-family:Verdana, Geneva, Tahoma, sans-serif;">by food.com</h2>
+        </div>
+    </body>
+
+
+
+    
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th {
+          text-align: center;
+        }
+        tr:nth-child(even) {
+             background-color: #D6EEEE;
+        }
+        </style>
+
+
+    
+    <body>
+        <table style="width:50%">
+            <tr>
+              <th>Recipe Name</th>
+              <th>Rating</th>
+              <th>Date Entered</th>
+              <th>Favorited?</th>
+            </tr>
+            <tr>
+              <td>Bacon Carbonara Orzo</td>
+              <td>10</td>
+              <td>9/3/2024</td>
+              <td>Favorited</td>
+            </tr>
+            <tr>
+              <td>Fettucine Alfredo Pasta</td>
+              <td>8</td>
+              <td>9/3/2024</td>
+              <td>Not Favorited</td>
+            </tr>
+            <tr>
+                <td>Shrimp Quesadillas</td>
+                <td>8</td>
+                <td>9/3/2024</td>
+                <td>Not Favorited</td>
+            </tr>
+            <tr>
+                <td>Chicken Salad Croissant</td>
+                <td>7</td>
+                <td>9/3/2024</td>
+                <td>Not Favorited</td>
+            </tr>
+            <tr>
+                <td>Cookie Casserole</td>
+                <td>6</td>
+                <td>9/3/2024</td>
+                <td>Favorited</td>
+            </tr>
+            <tr>
+                <td>Cheesy Potato Soup</td>
+                <td>6</td>
+                <td>9/3/2024</td>
+                <td>Not Favorited</td>
+            </tr>
+            <tr>
+                <td>Pink Iced Cookies</td>
+                <td>5</td>
+                <td>9/3/2024</td>
+                <td>Favorited</td>
+            </tr>
+            <tr>
+                <td>Hashbrown Casserole</td>
+                <td>5</td>
+                <td>9/3/2024</td>
+                <td>Favorited</td>
+            </tr>
+            <tr>
+                <td>Chicken and Dumplings</td>
+                <td>5</td>
+                <td>9/3/2024</td>
+                <td>Not Favorited</td>
+            </tr>
+            <tr>
+                <td>Caesar Salad</td>
+                <td>5</td>
+                <td>9/4/2024</td>
+                <td>Favorited</td>
+              </tr>
+          </table>
+    </body>
+
+    
+
+   
+    
+    <form style="padding-left: 60%;" action="/client/index.html/styles/table">
+        <label for="recipe">Recipe:</label>
+        <input type="text" id="recipe" name="recipe"><br><br>
+        <label for="rating">Rating:</label>
+        <input type="text" id="rating" name="rating"><br><br>
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date"><br><br>
+        <label for="recipe">Favorite?:</label>
+        <input type="text" id="favorite" name="favorite"><br><br>
+        <input type="submit" value="Add">
+        <input type="submit" value="Delete">
+        <input type="submit" value="Favorite">
+      </form>
+
+
+    
+
+</body>
+</html>
